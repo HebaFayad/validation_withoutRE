@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript Form validation</title>
+<link rel="stylesheet" href="./style.css">
+<script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!--<div class="rimg">
+    <img src="https://data.whicdn.com/images/296143738/original.gif" alt="">
+</div>-->
+<div class="form">
+<form name="contactForm" onsubmit="return validateForm()">
+    <h2>Form</h2>
+    <div class="pad">
+        <label>Full Name</label>
+        <input type="text" name="name" placeholder="only charecters">
+        <span class="error" id="nameErr"></span>
+    </div>
+    <div class="pad">
+        <label>Email Address</label>
+        <input type="text" name="email" placeholder="@example.com">
+        <span class="error" id="emailErr"></span>
+    </div>
+    <div class="pad">
+        <label>PassWord</label>
+        <input type="password" name="password" >
+        <span class="error" id="passErr"></span>
+    </div>
+    <div class="pad">
+        <label>Mobile Number</label>
+        <input type="text" name="mobile" >
+        <span class="error" id="mobileErr"></span>
+    </div>
+    <div class="pad">
+        <label>URL</label>
+        <input type="text" name="url" placeholder="https://">
+        <span class="error" id="urlErr"></span>
+    </div>
+    <duv class="pad">
+        <label>Age</label>
+        <input type="text" name="age">
+        <span class="error" id="ageErr"></span>
+    </duv>
+       <div>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+       </div>
+    <div class="pad">
+        <input type="submit" value="Submit">
+    </div>
+</form>
+</div>
+</div>
+</body>
+</html>                            

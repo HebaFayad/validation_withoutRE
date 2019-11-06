@@ -1,0 +1,67 @@
+body {
+    font-size: 16px;
+    background: #ebe7e7;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+}
+.container{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.rimg{flex: 1;margin: auto 10px;}
+.rimg img{width: 300px; height: 300px;}
+.form{margin-top:20px}
+form {
+    width: 400px;
+    background: rgba(145, 142, 170, 0.733);
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    /*margin: 50px auto 0;*/
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px rgb(122, 119, 119);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px
+}
+input , #text{
+    
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 2px;
+    border-right: 2px solid #5e5181;
+    border-left: 1px solid #5e5181;
+}
+.pad {
+    padding-bottom: 10px;
+}
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+.error {
+    color: red;
+    font-size: 90%;
+}
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #5e5181;
+    border-color: #5e5181;
+    box-shadow: 5px 7px 5px #898792;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: whitesmoke;
+    color:#5e5181 ;
+}
